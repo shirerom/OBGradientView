@@ -21,21 +21,7 @@
 		DB1938FF1774783D00922D94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		DB1939001774784500922D94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1F14A1117DC59C00B1065E /* QuartzCore.framework */; };
 		DB1939011774784D00922D94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		DB19390717747B0100922D94 /* OBGradientView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D1F149A117DC3F100B1065E /* OBGradientView.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DB1938F11774782000922D94 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				DB19390717747B0100922D94 /* OBGradientView.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -182,7 +168,6 @@
 			buildPhases = (
 				DB1938EF1774782000922D94 /* Sources */,
 				DB1938F01774782000922D94 /* Frameworks */,
-				DB1938F11774782000922D94 /* CopyFiles */,
 			);
 			buildRules = (
 			);
