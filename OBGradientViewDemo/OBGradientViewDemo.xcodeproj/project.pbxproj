@@ -17,6 +17,7 @@
 		28D7ACF80DDB3853001CB0EB /* OBGradientViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* OBGradientViewDemoViewController.m */; };
 		5D1F149C117DC3F100B1065E /* OBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1F149B117DC3F100B1065E /* OBGradientView.m */; };
 		5D1F14A2117DC59C00B1065E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1F14A1117DC59C00B1065E /* QuartzCore.framework */; };
+		DB0AD7C617786612000FE257 /* OBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1F149B117DC3F100B1065E /* OBGradientView.m */; };
 		DB1938F41774782000922D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		DB1938FF1774783D00922D94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		DB1939001774784500922D94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1F14A1117DC59C00B1065E /* QuartzCore.framework */; };
@@ -231,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0AD7C617786612000FE257 /* OBGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +309,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OBGradientView/OBGradientView-Prefix.pch";
+				GCC_PREFIX_HEADER = OBGradientViewDemo_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -339,7 +341,7 @@
 				DSTROOT = /tmp/OBGradientView.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OBGradientView/OBGradientView-Prefix.pch";
+				GCC_PREFIX_HEADER = OBGradientViewDemo_Prefix.pch;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "-ObjC";
